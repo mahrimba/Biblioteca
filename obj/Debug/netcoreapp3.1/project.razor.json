@@ -14412,8 +14412,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\PrecisaAdmin.cshtml",
+      "TargetPath": "Views\\Usuarios\\PrecisaAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
       "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\Editar.cshtml",
+      "TargetPath": "Views\\Usuarios\\Editar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14422,8 +14432,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuarios\\CadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
       "TargetPath": "Views\\Livro\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\Cadastro.cshtml",
+      "TargetPath": "Views\\Usuarios\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\Excluir.cshtml",
+      "TargetPath": "Views\\Usuarios\\Excluir.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14439,6 +14464,11 @@
     {
       "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\Biblioteca\\Views\\Usuarios\\Listagem.cshtml",
+      "TargetPath": "Views\\Usuarios\\Listagem.cshtml",
       "FileKind": "mvc"
     },
     {

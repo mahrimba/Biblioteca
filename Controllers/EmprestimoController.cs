@@ -1,12 +1,10 @@
-using Biblioteca.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using System;
+using Biblioteca.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca.Controllers
 {
-    
+
     public class EmprestimoController : Controller
     {
         public IActionResult Cadastro()
@@ -23,6 +21,7 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Cadastro(CadEmprestimoViewModel viewModel)
         {
+            Autenticacao.CheckLogin(this);
             EmprestimoService emprestimoService = new EmprestimoService();
             
             if(viewModel.Emprestimo.Id == 0)
@@ -36,7 +35,7 @@ namespace Biblioteca.Controllers
             return RedirectToAction("Listagem");
         }
 
-        public IActionResult Listagem(string tipoFiltro, string filtro)
+        public IActionResult Listagem(string tipoFiltro, string filtro, string itensPorPagina, int NumDaPagina, int PaginaAtual)
         {
             Autenticacao.CheckLogin(this);
             FiltrosEmprestimos objFiltro = null;
@@ -46,6 +45,10 @@ namespace Biblioteca.Controllers
                 objFiltro.Filtro = filtro;
                 objFiltro.TipoFiltro = tipoFiltro;
             }
+
+                ViewData["emprPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina) );
+                ViewData["paginaAtual"] =  (PaginaAtual!=0 ? PaginaAtual : 1);
+
             EmprestimoService emprestimoService = new EmprestimoService();
             return View(emprestimoService.ListarTodos(objFiltro));
         }
