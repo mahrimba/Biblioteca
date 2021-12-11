@@ -70,7 +70,7 @@ namespace Biblioteca.Controllers
         public IActionResult Sair()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("Index, Home");
+            return View();
         }
 
         public IActionResult PrecisaAdmin()

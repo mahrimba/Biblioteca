@@ -51,9 +51,10 @@ D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csproj.CopyComplete
 D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Cadastro.cshtml.g.cs
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\CadastroRealizado.cshtml.g.cs
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Editar.cshtml.g.cs
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Excluir.cshtml.g.cs
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Listagem.cshtml.g.cs
-D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\PrecisaAdmin.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroRealizado.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Editar.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Excluir.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Listagem.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\PrecisaAdmin.cshtml.g.cs
+D:\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Sair.cshtml.g.cs
